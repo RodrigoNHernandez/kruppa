@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRUPPA - Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Imagenes/logo.png" alt="Logo Kruppa" class="logo-img">
+                Kruppa
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/kruppa.edm" target="_blank" aria-label="Instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/intl-es/artist/4cypzofTqNhU4G3BC5UJug" target="_blank"
+                    aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/@kruppa7" target="_blank" aria-label="YouTube"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://soundcloud.com/kruppa26" target="_blank" aria-label="SoundCloud"><i
+                        class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://kruppa.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i
+                        class="fa-brands fa-bandcamp"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section class="seccion-contacto">
+            <div class="contacto-header">
+                <h1>Contacto</h1>
+                <p>[ // BOOKING, PRENSA & CONSULTAS ]</p>
+            </div>
+
+            <div class="contacto-grid">
+                <!-- Columna Izquierda: Info directa & Redes -->
+                <div class="contacto-info">
+                    <h2>Conectemos</h2>
+                    <p>Para contratación de Live Sets, colaboraciones de producción, pedidos específicos de tracks o
+                        prensa, podés escribir directamente o usar los canales oficiales.</p>
+
+                    <div class="direct-email">
+                        <span>Email directo:</span>
+                        <a href="mailto:kruppa7mza@gmail.com">kruppa7mza@gmail.com</a>
+                    </div>
+
+                    <div class="contacto-sociales-list">
+                        <a href="https://www.instagram.com/kruppa.edm" target="_blank" class="social-contact-item">
+                            <i class="fa-brands fa-instagram"></i> <span>Instagram DM</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Formulario Zero-Backend (Formspree) -->
+                <form class="contacto-form" action="https://formspree.io/f/mdeoqzer" method="POST">
+                    <h2>Envía un mensaje</h2>
+
+                    <div class="form-group">
+                        <label for="asunto">Tema a tratar</label>
+                        <select id="asunto" name="asunto" required class="form-select">
+                            <option value="" disabled selected>Seleccioná una opción...</option>
+                            <option value="contratacion">Contratación (Live Set)</option>
+                            <option value="mezcla">Mezcla de track</option>
+                            <option value="track-medida">Pedido de tipo específico de track</option>
+                            <option value="prensa">Prensa / Comunicación</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Nombre / Alias</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="_replyto" required placeholder="tu@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje / Detalle</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Fechas tentativas, referencias, BPM o requerimientos..."></textarea>
+                    </div>
+
+                    <button type="submit" class="filter-btn active"
+                        style="width: 100%; padding: 12px; margin-top: 4px;">ENVIAR CONSULTA</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/kruppa.edm" target="_blank" aria-label="Instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/intl-es/artist/4cypzofTqNhU4G3BC5UJug" target="_blank"
+                    aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/@kruppa7" target="_blank" aria-label="YouTube"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://soundcloud.com/kruppa26" target="_blank" aria-label="SoundCloud"><i
+                        class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://kruppa.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i
+                        class="fa-brands fa-bandcamp"></i></a>
+            </div>
+            <p>&copy; 2026 Kruppa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

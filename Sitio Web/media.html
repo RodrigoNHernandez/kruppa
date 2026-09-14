@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRUPPA - Media & Archive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Imagenes/logo.png" alt="Logo Kruppa" class="logo-img">
+                Kruppa
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="media.html" class="activo">Media</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/kruppa.edm" target="_blank" aria-label="Instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/intl-es/artist/4cypzofTqNhU4G3BC5UJug" target="_blank"
+                    aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/@kruppa7" target="_blank" aria-label="YouTube"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://soundcloud.com/kruppa26" target="_blank" aria-label="SoundCloud"><i
+                        class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://kruppa.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i
+                        class="fa-brands fa-bandcamp"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion-media">
+            <div class="media-header">
+                <div class="media-title-group">
+                    <h1>Media & Archive</h1>
+                    <p>[ 04 // LIVE SETS, PHOTOGRAPHY & FLYER DESIGN ]</p>
+                </div>
+                <div class="media-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="photos">Photos</button>
+                    <button class="filter-btn" data-filter="videos">Videos</button>
+                    <button class="filter-btn" data-filter="flyers">Flyers</button>
+                </div>
+            </div>
+
+            <div class="media-grid" id="mediaGrid">
+                <!-- Renderizado dinámico vía script.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <div class="lightbox-media" id="lightboxMediaContainer"></div>
+            <div class="lightbox-info">
+                <div>
+                    <span class="media-category-tag" id="lightboxCategory">TAG</span>
+                    <h2 id="lightboxTitle">Title</h2>
+                </div>
+                <p id="lightboxDesc"></p>
+                <button class="filter-btn lightbox-close" id="closeLightbox">CERRAR [X]</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/kruppa.edm" target="_blank" aria-label="Instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/intl-es/artist/4cypzofTqNhU4G3BC5UJug" target="_blank"
+                    aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/@kruppa7" target="_blank" aria-label="YouTube"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://soundcloud.com/kruppa26" target="_blank" aria-label="SoundCloud"><i
+                        class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://kruppa.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i
+                        class="fa-brands fa-bandcamp"></i></a>
+            </div>
+            <p>&copy; 2026 Kruppa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

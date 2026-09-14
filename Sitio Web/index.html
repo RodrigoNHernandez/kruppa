@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRUPPA - Official Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Imagenes/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="home-page">
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="Imagenes/logo.png" alt="Logo Kruppa" class="logo-img">
+        Kruppa
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/kruppa.edm" target="_blank" aria-label="Instagram"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://open.spotify.com/intl-es/artist/4cypzofTqNhU4G3BC5UJug" target="_blank" aria-label="Spotify"><i
+            class="fa-brands fa-spotify"></i></a>
+        <a href="https://www.youtube.com/@kruppa7" target="_blank" aria-label="YouTube"><i
+            class="fa-brands fa-youtube"></i></a>
+        <a href="https://soundcloud.com/kruppa26" target="_blank" aria-label="SoundCloud"><i
+            class="fa-brands fa-soundcloud"></i></a>
+        <a href="https://kruppa.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i
+            class="fa-brands fa-bandcamp"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HERO CON CAROUSEL DE FONDO Y NOVEDADES ENCIMA -->
+    <section class="hero">
+      <!-- Fondo Animado / Slider -->
+      <div class="hero-bg-slider">
+        <div class="slide active" style="background-image: url('Imagenes/hero/foto1.jpg');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto3.JPG');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto4.jpg');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto5.jpg');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto6.jpg');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto7.jpg');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto8.jpg');"></div>
+        <div class="slide" style="background-image: url('Imagenes/hero/foto2.png');"></div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <!-- Contenido encimado sobre el carrusel: ÚLTIMAS NOVEDADES -->
+      <div class="hero-content-wrapper">
+        <div class="contenedor-novedades">
+          <div class="encabezado-seccion">
+            <span class="subtitulo-neon"><i class="fa-solid fa-bullhorn"></i> LATEST NEWS</span>
+            <h2>ÚLTIMAS NOVEDADES</h2>
+          </div>
+
+          <div class="grid-novedades">
+            <!-- Noticia 1 -->
+            <article class="news-card">
+              <div class="news-image" style="background-image: url('Imagenes/noticias/flyerbirra.jpg');">
+                <span class="news-date">25 AGO 2026</span>
+              </div>
+              <div class="news-content">
+                <span class="news-category">LIVE SET</span>
+                <h3>Show en vivo en Birra House</h3>
+                <p>El jueves 27 de agosto habrá Live Set en Birra House, Mendoza, a partir de las 22hs. ¡Te esperamos!
+                </p>
+                <a href="https://www.google.com/maps/dir//Birra+House,+Ar%C3%ADstides+Villanueva+127,+M5500+Mendoza/@-32.8716902,-68.8466428,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x967e0905c27494db:0x610bc94ea7edee4d!2m2!1d-68.8517657!2d-32.892664?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank" class="news-link">DIRECCIÓN DEL LUGAR AQUÍ<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+
+            <!-- Noticia 2 -->
+            <article class="news-card">
+              <div class="news-image" style="background-image: url('Imagenes/melancholiccover.jpg');">
+                <span class="news-date">04 AGO 2026</span>
+              </div>
+              <div class="news-content">
+                <span class="news-category">LANZAMIENTO</span>
+                <h3>Nuevo simple: "Melancholic Girl"</h3>
+                <p>Tenemos el agrado de informar el lanzamiento del último simple de Kruppa titulado "Melancholic Girl".
+                </p>
+                <a href="https://open.spotify.com/intl-es/track/34Y8BJ5AlpPgIjSGjRU7gf?si=50a95a090c8b4a03"
+                  target="_blank" class="news-link">ESCUCHAR AQUÍ<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+
+            <!-- Noticia 3 -->
+            <article class="news-card">
+              <div class="news-image" style="background-image: url('Imagenes/crasstoncover.jpg');">
+                <span class="news-date">27 JUL 2026</span>
+              </div>
+              <div class="news-content">
+                <span class="news-category">LANZAMIENTO</span>
+                <h3>Nuevo simple: "Crasston"</h3>
+                <p>¡Ya está disponible el simple "Crasston" en todas las plataformas digitales!</p>
+                <a href="https://open.spotify.com/intl-es/track/4aNlVN8943k0Tu507hemrY?si=f74c4a00ea244fb4"
+                  class="news-link">ESCUCHAR AQUÍ<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SECCIÓN ACCESOS DIRECTOS -->
+    <section class="seccion-accesos">
+      <div class="contenedor-accesos">
+        <div class="grid-accesos">
+          <!-- Tarjeta 1 -->
+          <article class="feature-card">
+            <div class="card-image" style="background-image: url('Imagenes/hero/foto1.jpg');">
+              <span class="card-badge"><i class="fa-solid fa-compact-disc"></i>TRACKS</span>
+            </div>
+            <div class="card-body">
+              <h3>DJ STORE & EXTENDED MIXES</h3>
+              <p>Descargá producciones originales en máxima calidad WAV/AIFF para tus sets.</p>
+              <a href="https://kruppa.bandcamp.com/" target="_blank" class="card-btn primary">
+                <i class="fa-brands fa-bandcamp"></i> COMPRAR EN BANDCAMP
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2 -->
+          <article class="feature-card">
+            <div class="card-image" style="background-image: url('Imagenes/hero/foto2.png');">
+              <span class="card-badge"><i class="fa-solid fa-music"></i> CATÁLOGO</span>
+            </div>
+            <div class="card-body">
+              <h3>DISCOGRAFÍA & REPRODUCCIÓN</h3>
+              <p>Explorá todos los lanzamientos.</p>
+              <a href="discografia.html" class="card-btn secondary">VER</a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3 -->
+          <article class="feature-card">
+            <div class="card-image" style="background-image: url('Imagenes/indexgaleria.jpg');">
+              <span class="card-badge"><i class="fa-solid fa-camera"></i> GALERÍA</span>
+            </div>
+            <div class="card-body">
+              <h3>MEDIA</h3>
+              <p>Imágenes de presentaciones en vivo, sets y sesiones de estudio; flyers de
+                conciertos, videos y mucho más.</p>
+              <a href="media.html" class="card-btn secondary">VER GALERÍA</a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 4 -->
+          <article class="feature-card">
+            <div class="card-image" style="background-image: url('Imagenes/imagencontacto.jpg');">
+              <span class="card-badge"><i class="fa-solid fa-envelope"></i> BOOKING</span>
+            </div>
+            <div class="card-body">
+              <h3>CONTACTO</h3>
+              <p>Información de booking, press kit y contacto directo para eventos, featurings, mezclas especiales y lo
+                que usted requiera.</p>
+              <a href="contacto.html" class="card-btn secondary">CONTACTAR</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/kruppa.edm" target="_blank" aria-label="Instagram"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://open.spotify.com/intl-es/artist/4cypzofTqNhU4G3BC5UJug" target="_blank" aria-label="Spotify"><i
+            class="fa-brands fa-spotify"></i></a>
+        <a href="https://www.youtube.com/@kruppa7" target="_blank" aria-label="YouTube"><i
+            class="fa-brands fa-youtube"></i></a>
+        <a href="https://soundcloud.com/kruppa26" target="_blank" aria-label="SoundCloud"><i
+            class="fa-brands fa-soundcloud"></i></a>
+        <a href="https://kruppa.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i
+            class="fa-brands fa-bandcamp"></i></a>
+      </div>
+      <p>&copy; 2026 Kruppa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
